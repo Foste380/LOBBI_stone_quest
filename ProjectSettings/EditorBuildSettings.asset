@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/3C/3C zone explorable.unity
+    guid: 801f02b740ba8e74a867362e7232b716
   m_configObjects: {}
