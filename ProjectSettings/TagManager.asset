@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Overworld
   - Zone
+  - Atk P1
+  - Atk P2
+  - "Cam\xE9ra position target"
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Lock Button
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-123.8816,"y":325.2411},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-322.0,"y":110.0},"guid":"3926ac56-4a2d-4557-957a-1441f908beec","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"9"},{"argumentCount":0,"defaultValues":{"name":{"$content":"Selection
+      end","$type":"System.String"},"target":null},"position":{"x":-51.0,"y":91.0},"guid":"8b68cfdc-164c-4880-ab02-27423451ee40","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"11"},{"type":"UnityEngine.GameObject","value":{"$content":0,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":-326.0,"y":213.0},"guid":"cd63fcfe-da37-4a95-9ae1-b899acb7d8c8","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"f283392c-2a89-42f9-abdb-9782cb1058d9","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"128c5d11-10f0-4199-a862-5f5d7d6e070d","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 3057816181710370577, guid: 8734a721aa64c0440880b5dbedc89164, type: 3}
